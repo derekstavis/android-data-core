@@ -37,13 +37,3 @@ This class wrapps all "low-level" logic that would go into Activities for checki
 8. Implement `OnDataReadyListener` on Activity.
 9. On Activity call `DataProvider.getInstance().personFor(this).doGet()` to get a list of people.
 10. Call `DataProvider.getInstance().personFor(this).doGet(1)` to get the person with identifier 1.
-
-## Dependencies
-
-* Spring Source RestTemplate: <http://www.springsource.org/spring-android> 
-* Jackson JSON engine: <http://jackson.codehaus.org>
-
-## Roadmap
-
-* Sample project
-* Decent caching
